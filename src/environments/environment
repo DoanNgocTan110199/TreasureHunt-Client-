@@ -1,0 +1,9 @@
+export const environment = {
+   production: false,
+   version: "0.0.1",
+   Build : "1",
+   apiHost: "https://localhost:44342/api/TreasureMaps",
+};
+export const Config = async () => {
+    return 'https://localhost:44342/api/TreasureMaps'
+};
